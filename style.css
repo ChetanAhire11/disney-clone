@@ -132,6 +132,7 @@ body {
     z-index: 2;
     background: linear-gradient(to right, #030b17 80%, #0c111b00);
     color: #fff;
+    
  }
 
  .movie-title {
@@ -156,6 +157,7 @@ body {
     display: flex;
     margin-bottom: 20px;
     justify-content: space-between;
+    
  }
 
  .video-card {
@@ -197,6 +199,7 @@ body {
     height: 220px;
     position: relative;
     margin: 10px 0 20px;
+    
  }
 
  .card-container {
@@ -210,6 +213,7 @@ body {
     overflow-x: auto;
     overflow-y: visible;
     scroll-behavior: smooth;
+   justify-content: space-around;
  }
 
  .card-container::-webkit-scrollbar {
@@ -226,6 +230,7 @@ body {
     margin-left: 10px;
     transition: .5s;
     background: #000;
+    cursor: pointer;
  }
  .card:hover {
     transform: scale(1.1);
